@@ -35,8 +35,7 @@ coooCCO8\@88OO8O888Oo:::... ..  :cO8Oc. . .....  :.  .:ccCoooooccoooocccccooooCC
    .  . ...    .... ..  .:cccoCooc:..  ::cccc:::c:.. ......... ......::::c:cccco
   .  .. ... ..    .. ..   ..:...:cooc::cccccc:.....  .........  .....:::::ccoocc
        .   .         .. ..::cccc:.::ccoocc:. ........... ..  . ..:::.:::::::ccco
-
- Welcome to Cyphon - This is a DOS tool written by bBoyAlgorithm(Abilash) and this is specialised for the Mac OS
+Welcome to Cyphon - This is a DOS tool written by bBoyAlgorithm(Abilash) and this is specialised for the Mac OS
 EOTEXT
 my ( $host, $port, $sendhost, $shost, $test, $version, $timeout, $connections );
 my ( $cache, $httpready, $method, $ssl, $rand, $tcpto );
