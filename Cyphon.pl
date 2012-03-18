@@ -199,7 +199,7 @@ if ($test) {
     }
 
     if ( print $sock "Connection: Close\r\n\r\n" ) {
-        print "Okay that's enough time. Slowloris closed the socket.\n";
+        print "Okay that's enough time. Cyphon closed the socket.\n";
         print "Use $delay seconds for -timeout.\n";
         exit;
     }
@@ -212,7 +212,7 @@ if ($test) {
         print <<EOSUCKS2BU;
 Since the timeout ended up being so small ($delay seconds) and it generally 
 takes between 200-500 threads for most servers and assuming any latency at 
-all...  you might have trouble using Slowloris against this target.  You can 
+all...  you might have trouble using Cyphon against this target.  You can 
 tweak the -timeout flag down to less than 10 seconds but it still may not 
 build the sockets in time.
 EOSUCKS2BU
@@ -391,9 +391,9 @@ IIS6.0, IIS7.0, lighttpd, nginx, Cherokee, Squid, others...?
 
 =head1 DESCRIPTION
 
-Cyphon is designed so that a single machine (probably a  machine running on Mac since Windows appears to limit how many sockets you can have open at any given time) can easily tie up a typical web server or proxy server by locking up all of it's threads as they patiently wait for more data.  Some servers may have a smaller tolerance for timeouts than others, but Slowloris can compensate for that by customizing the timeouts.  There is an added function to help you get started with finding the right sized timeouts as well.
+Cyphon is designed so that a single machine (probably a  machine running on Mac since Windows appears to limit how many sockets you can have open at any given time) can easily tie up a typical web server or proxy server by locking up all of it's threads as they patiently wait for more data.  Some servers may have a smaller tolerance for timeouts than others, but Cyphon can compensate for that by customizing the timeouts.  There is an added function to help you get started with finding the right sized timeouts as well.
 
-As a side note, Cyphon does not consume a lot of resources so modern operating systems don't have a need to start shutting down sockets when they come under attack, which actually in turn makes Slowloris better than a typical flooder in certain circumstances.  Think of Slowloris as the HTTP equivalent of a SYN flood.
+As a side note, Cyphon does not consume a lot of resources so modern operating systems don't have a need to start shutting down sockets when they come under attack, which actually in turn makes Slowloris better than a typical flooder in certain circumstances.  Think of Cyphon as the HTTP equivalent of a SYN flood.
 
 =head2 Testing
 
