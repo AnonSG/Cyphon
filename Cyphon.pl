@@ -47,7 +47,7 @@ print <<EOTEXT;
 ´´´´´´´´´´´´´´´´´´¶¶´´¶¶¶¶´´¶¶¶¶¶´´¶¶¶¶´´¶¶´´´´´´´´´´´´´´´´´´
 ´´´´´´´´´´´´´´´´´´´´´´¶¶¶¶´´¶¶¶¶¶´´¶¶¶¶´´´´´´´´´´´´´´´´´´´´´
 
-Welcome to Cyphon One POINT zero - This is a DOS tool written by Abila5h , @RSnake , not forgetting you bruh
+Welcome to Cyphon One POINT zero - This is a DOS tool written by Abila5h. RSnake , not forgetting you bruh
 
 EOTEXT
 
