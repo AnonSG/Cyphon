@@ -47,7 +47,7 @@ print <<EOTEXT;
 ´´´´´´´´´´´´´´´´´´¶¶´´¶¶¶¶´´¶¶¶¶¶´´¶¶¶¶´´¶¶´´´´´´´´´´´´´´´´´´
 ´´´´´´´´´´´´´´´´´´´´´´¶¶¶¶´´¶¶¶¶¶´´¶¶¶¶´´´´´´´´´´´´´´´´´´´´´
 
-Welcome to Cyphon - This is a DOS tool written by  exploiters from @AnonSG and this is specialised for the Mac OS 
+Welcome to Cyphon 1.0 - This is a DOS tool written by Abila5h , @RSnake , not forgetting you bruh <3
 
 EOTEXT
 
