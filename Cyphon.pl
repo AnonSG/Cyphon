@@ -46,10 +46,8 @@ print <<EOTEXT;
 ´´´´´´´´´´´´´´´´´¶¶¶´´¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶´´¶¶¶´´´´´´´´´´´´´´´´´
 ´´´´´´´´´´´´´´´´´´¶¶´´¶¶¶¶´´¶¶¶¶¶´´¶¶¶¶´´¶¶´´´´´´´´´´´´´´´´´´
 ´´´´´´´´´´´´´´´´´´´´´´¶¶¶¶´´¶¶¶¶¶´´¶¶¶¶´´´´´´´´´´´´´´´´´´´´´
-
-
-Welcome to Cyphon  - This is a DOS cannon written by Abilash Menon and it is for the Mac OS. Initially written by RSnake.
-
+ Welcome to Cyphon - the low bandwidth, yet greedy and poisonous HTTP client originated from the Cyphon. Written , modified 
+ and compiled by Abilash Menon. (Flnak). This is the payload for the DoS tool. Payload gets updated every 2 weeks.
 EOTEXT
 
 my ( $host, $port, $sendhost, $shost, $test, $version, $timeout, $connections );
@@ -353,7 +351,7 @@ sub doconnections {
             }
         }
         print
-"Current stats:\tCyphon has now sent $packetcount packets from W4RL0RD successfully.\nThis thread now sleeping for $timeout seconds...\n\n";
+"Current stats:\tCyphon has now sent $packetcount packets successfully.\nThis thread now sleeping for $timeout seconds...\n\n";
         sleep($timeout);
     }
 }
@@ -375,4 +373,3 @@ sub domultithreading {
 }
 
 __END__
-
