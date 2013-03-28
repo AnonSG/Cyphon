@@ -48,7 +48,7 @@ print <<EOTEXT;
 ´´´´´´´´´´´´´´´´´´´´´´¶¶¶¶´´¶¶¶¶¶´´¶¶¶¶´´´´´´´´´´´´´´´´´´´´´
 
 
-Welcome to Cyphon  RC 1.1 - This is a DOS cannon written by Abilash Menon and it is for the Mac OS. Initially written by RSnake.
+Welcome to Cyphon  - This is a DOS cannon written by Abilash Menon and it is for the Mac OS. Initially written by RSnake.
 
 EOTEXT
 
@@ -353,7 +353,7 @@ sub doconnections {
             }
         }
         print
-"Current stats:\tCyphon has now sent $packetcount packets from Abilash's Cyberspace successfully.\nThis thread now sleeping for $timeout seconds...\n\n";
+"Current stats:\tCyphon has now sent $packetcount packets from W4RL0RD successfully.\nThis thread now sleeping for $timeout seconds...\n\n";
         sleep($timeout);
     }
 }
